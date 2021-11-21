@@ -1,20 +1,32 @@
 #include <Gold.h>
+
+#include "Platform//OpenGL/OpenGLShader.h"
+#include "imgui/imgui.h"
+
+#include <glm/gtc/matrix_transform.hpp>
+#include <glm/gtc/type_ptr.hpp>
+#include "Bank2D.h"
 #include <Gold/Core/EntryPoint.h>
 
-class Bank :public Gold::Application
-{
-public:
-	Bank()
+namespace Gold {
+
+	class Bank : public Application
 	{
+	public:
+		Bank(ApplicationCommandLineArgs args)
+			:Application("BankApp",args)
+		{
+			PushLayer(new Bank2D());
+		}
+
+		~Bank()
+		{
+		}
+	};
+
+	Application* CreateApplication(ApplicationCommandLineArgs args)
+	{
+		return new Bank(args);
 	}
 
-	~Bank()
-	{
-	}
-};
-
-
-Gold::Application* Gold::CreateApplication()
-{
-	return new Bank();
 }

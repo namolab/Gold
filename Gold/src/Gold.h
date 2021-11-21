@@ -1,42 +1,61 @@
 #pragma once
 
+//////////////////////////Core///////////////////////////////
 #include "Gold/Core/Application.h"
+#include "Gold/Core/Input.h"
+#include "Gold/Core/KeyCodes.h"
+#include "Gold/Core/MouseCodes.h"
+#include "Gold/Core/Timestep.h"
+#include "Gold/Core/Layer.h"
+#include "Gold/Core/Log.h"
+#include "Gold/Core/Timer.h"
 
-//#include "Rave/Core/Layer.h"
-//#include "Rave/Core/Log.h"
-//
-//#include "Rave/Core/Timestep.h"
-//
-//#include "Rave/Core/Input.h"
-//#include "Rave/Core/KeyCodes.h"
-//#include "Rave/Core/MouseCodes.h"
-//#include "Rave/Renderer/OrthographicCameraController.h"
-//
-//#include "Rave/ImGui/ImGuiLayer.h"
-//
-//#include "Rave/Scene/Scene.h"
-//#include "Rave/Scene/Entity.h"
-//#include "Rave/Scene/ScriptableEntity.h"
-//#include "Rave/Scene/Components.h"
-////Renderer--------------------
-//#include "Rave/Renderer/Renderer.h"
-//#include "Rave/Renderer/Renderer2D.h"
-//#include "Rave/Renderer/RenderCommand.h"
-//
-//#include "Rave/Renderer/Buffer.h"
-//#include "Rave/Renderer/Shader.h"
-//#include "Rave/Renderer/Framebuffer.h"
-//#include "Rave/Renderer/Texture.h"
-//#include "Rave/Renderer/SubTexture2D.h"
-//#include "Rave/Renderer/VertexArray.h"
-//#include "Rave/Renderer/Random.h"
-//#include "Rave/Renderer/ParticleSystem.h"
+///////////////////////////Debug//////////////////////////////////
+
+
+
+///////////////////////Events///////////////////////////////////
+
+
+///////////////////////////ImGui////////////////////////////////
+#include "Gold/ImGui/ImGuiLayer.h"
+
+
+///////InGameNeed/////////////////
+#include "Gold/InGameNeed/Random.h"
+#include "Gold/InGameNeed/ParticleSystem.h"
+
+
+///////////////////////Renderer////////////////////////////////
+#include "Gold/Renderer/OrthographicCamera.h"
+#include "Gold/Renderer/OrthographicCameraController.h"
+#include "Gold/Renderer/Renderer.h"
+#include "Gold/Renderer/Renderer2D.h"
+#include "Gold/Renderer/RenderCommand.h"
+#include "Gold/Renderer/Buffer.h"
+#include "Gold/Renderer/Shader.h"
+#include "Gold/Renderer/Texture.h"
+#include "Gold/Renderer/VertexArray.h"
+#include "Gold/Renderer/SubTexture2D.h"
+#include "Gold/Renderer/Framebuffer.h"
+#include "Gold/Renderer/EditorCamera.h"
+
+/////////////////////////////////Scene/////////////////////////////
+#include "Gold/Scene/Scene.h"
+#include "Gold/Scene/Entity.h"
+#include "Gold/Scene/ScriptableEntity.h"
+#include "Gold/Scene/Components.h"
+
+
 //#include "Rave/Renderer/Material.h"
 //
-//#include "Rave/Renderer/OrthographicCamera.h"
+
+
 ////-------------
 //
 //#include "Rave/Renderer/Vertex3D.h"
 //#include "Rave/Renderer/Light.h"
 //#include "Rave/Renderer/CharacterMaterial.h"
 //#include "Rave/Renderer/Sky3dVertex.h"
+
+

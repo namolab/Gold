@@ -1,0 +1,21 @@
+[submodule "Gold/vendor/spdlog"]
+	path = Gold/vendor/spdlog
+	url = https://github.com/gabime/spdlog
+[submodule "Gold/vendor/GLFW"]
+	path = Gold/vendor/GLFW
+	url = https://github.com/TheCherno/glfw
+[submodule "Gold/vendor/imgui"]
+	path = Gold/vendor/imgui
+	url = https://github.com/TheCherno/imgui
+[submodule "Gold/vendor/glm"]
+	path = Gold/vendor/glm
+	url = https://github.com/g-truc/glm
+[submodule "Gold/vendor/yaml-cpp"]
+	path = Gold/vendor/yaml-cpp
+	url = https://github.com/TheCherno/yaml-cpp
+[submodule "Gold/vendor/ImGuizmo"]
+	path = Gold/vendor/ImGuizmo
+	url = https://github.com/TheCherno/ImGuizmo
+[submodule "Gold/vendor/Box2D"]
+	path = Gold/vendor/Box2D
+	url = https://github.com/TheCherno/box2d
